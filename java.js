@@ -1,3 +1,9 @@
+//DOM elements
+const numberButton = document.querySelectorAll('.number');
+const operatorButton = document.querySelectorAll('.operator');
+const clearButton = document.querySelector('.clear');
+const equalsKey = document.querySelector('.equals-key');
+
 //Add, subtract, multiply, divide functions
 function add(a, b){
     return a + b;
