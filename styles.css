@@ -12,3 +12,6 @@ body{
   align-items: center;
   height: 100vh;
 }
+.screen{
+  border: 1px solid black;
+}
