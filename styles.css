@@ -1,0 +1,8 @@
+.button-container{
+  display: grid;
+  grid-template-areas: 
+      "topbar   topbar    topbar    topbar"
+      "ads    content   content   sidebar"
+      "footer   footer    footer    footer";
+  gap: 0.5em;
+}
