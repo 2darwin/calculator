@@ -1,4 +1,5 @@
 //DOM elements
+const screen = document.querySelector('.screen');
 const numberButton = document.querySelectorAll('.number');
 const operatorButton = document.querySelectorAll('.operator');
 const clearButton = document.querySelector('.clear');
@@ -31,6 +32,11 @@ function operate(num1, num2, operator){
             return divide(num1, num2);
     }
 }
+
+//Clear button
+clearButton.addEventListener('click', function(){
+    screen.innerHTML = 0;
+});
 
 let num1 = '';
 let num2 = '';
