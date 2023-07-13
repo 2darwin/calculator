@@ -152,5 +152,5 @@ equalsKey.addEventListener("click", function () {
 
 //Clear button
 clearButton.addEventListener("click", function () {
-  screen.innerHTML = 0;
+  screen.innerHTML = '';
 });

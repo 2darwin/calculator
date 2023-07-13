@@ -5,6 +5,7 @@
       "ads    content   content   sidebar"
       "footer   footer    footer    footer";
   gap: 0.5em;
+  margin: 10px;
 }
 body{
   display: flex;
@@ -14,4 +15,17 @@ body{
 }
 .screen{
   border: 1px solid black;
+  height: 18px;
+  text-align: right;
+}
+.calculator{
+  width: 250px;
+  border: 1px solid black;
+}
+
+.operator{
+  background-color: grey;
+}
+.equals-key{
+  background-color: blue;
 }
