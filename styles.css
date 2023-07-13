@@ -6,3 +6,9 @@
       "footer   footer    footer    footer";
   gap: 0.5em;
 }
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
